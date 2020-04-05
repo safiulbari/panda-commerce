@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body{
+    font-family: Poppins;
+}
+
+.container{
+    margin-bottom: 100px;
+}
+
+.orange-bg{
+    background-color:#fceae8 ;
+    border-radius: 10px;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.price{
+    color: #ff136f;
+}
+.buy-now-button {
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
+
+.cat-1{
+    background-color: orange;
+
+}
+.cat-2{
+    background-color: orchid;
+}
+.cat-3{
+    background-color: blue;
+}
+
+
+.cat-1, .cat-2, .cat-3 {
+    padding: 10px 16px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cat-1 img, .cat-2 img, .cat-3 img {
+    height: 100px;
+}
+
+.card{
+    border:none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+
+}
+
+#subscribe{
+    height: 300px;
+}
+.custom{
+    margin-top: 20px;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.custom-2{
+    margin-bottom: 20px;
+}
