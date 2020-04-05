@@ -45,6 +45,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 .cat-1 img, .cat-2 img, .cat-3 img {
@@ -71,4 +72,16 @@ footer{
 }
 .custom-2{
     margin-bottom: 20px;
+}
+
+.go-to-top{
+    border-radius: 10px;
+    height: 74px;
+    width: 70px;
+    background-color: #ff136f;
+    box-shadow: 0;
+    color: white;
+    margin-left: 80%;
+    position: fixed;
+    bottom: 20px;
 }
